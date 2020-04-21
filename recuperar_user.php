@@ -25,7 +25,7 @@
 <a href="index.php" style="text-decoration: none;"><i class="fa fa-arrow-circle-left" aria-hidden="true" id="volver"></i></a>
 	<br><br>
 <h3>Introduce tu Email</h3>
-<form action="modelDAO/proceso_recuperar_usuario.php" name="formulario" method="POST">
+<form action="Controlador/proceso_recuperar_usuario.php" name="formulario" method="POST">
 <span class="input-group-text" id="span1"><i class="fa fa-envelope" id="icon1"></i></span>
 <input type="email" name="email" id="email" autocomplete="off" pattern="^[\w._%-]+@[\w.-]+\.[a-zA-Z]{2,4}$">
 <h3>Contraseña</h3>

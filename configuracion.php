@@ -52,7 +52,7 @@ if (!isset($_SESSION["usuario"])) {
   </div><br>
 	
 	<br>
-    <form action="modelDAO/actualizar_imagen_perfil.php" method="post" name="tuformulario" enctype="multipart/form-data">
+    <form action="Controlador/actualizar_imagen_perfil.php" method="post" name="tuformulario" enctype="multipart/form-data">
 	<div id="div_file">
         <label for="file" class="input-file__btn"  style="background-color: #22D102; cursor: pointer; border-radius: 10px; margin-right: 20px; color: white; padding-left: 10px; padding-right: 10px;">Cargar Imagen</label>
             <label for="" class="input-file__field"></label>
@@ -65,7 +65,7 @@ if (!isset($_SESSION["usuario"])) {
 <div id="listado">
     <h4 id="cambiar_imagen">Actualizar Contraseña</h4>
   </div><br>
-  <form action="modelDAO/actualizar_contraseña.php" method="post" name="tuformulario2" enctype="multipart/form-data">
+  <form action="Controlador/actualizar_contraseña.php" method="post" name="tuformulario2" enctype="multipart/form-data">
   <div id="div_file">
     <label  style="margin-right: 15px; padding-top: 10px;">Nueva Contraseña:</label>
     <input type="password" name="password" id="password"  style="margin-right: 10px;">

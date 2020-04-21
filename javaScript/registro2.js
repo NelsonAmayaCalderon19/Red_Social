@@ -45,7 +45,7 @@ var porId=document.getElementById("email").value;
 
                     $.ajax({
                         type:"POST",
-                        url:"modelDAO/registrar_usuario.php",
+                        url:"Controlador/registrar_usuario.php",
                         data:cadena,
                         success:function(r){
 

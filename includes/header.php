@@ -33,7 +33,7 @@
           <a class="dropdown-item" href="principal.php"><h5 class="border"><i class="fa fa-check" aria-hidden="true" id="icon"></i>Publico</h5></a>
            </form>
           <div class="dropdown-divider"></div>
-          <form action="modelDAO/Cerrar_Sesion.php" method="POST">
+          <form action="Controlador/Cerrar_Sesion.php" method="POST">
               <button name="accion" value="Salir" class="dropdown-item" href="#"><h5 class="cerrar" id="close"><i class="fa fa-sign-out" aria-hidden="true" id="icon"></i>Cerrar Sesión</h5></button>
           </form>
         </div></h2>         

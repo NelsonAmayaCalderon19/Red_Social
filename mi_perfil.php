@@ -36,7 +36,7 @@
       <div id="contenedor">
 	<a href="principal.php" style="text-decoration: none;"><i class="fa fa-arrow-circle-left" aria-hidden="true"id="volver"></i></a>
 	<br>
-    <form action="modelDAO/Cargar_Imagen.php" method="post" enctype="multipart/form-data">
+    <form action="Controlador/Cargar_Imagen.php" method="post" enctype="multipart/form-data">
 	<div id="div_file">
         <label for="file" class="input-file__btn" id="cargar">Cargar Imagen</label>
             <label for="" class="input-file__field"></label>

@@ -20,7 +20,7 @@
 	<h2>POLITICAS</h2>
 	<br>
 	<a href="registro.php" style="text-decoration: none;" id="volver" title="Volver"><i class="fa fa-arrow-circle-left" aria-hidden="true" style="float: right; font-size: 3em; margin-right: 2%;"></i></a><br>
-	<iframe src="modelDAO/terminos_contenido.php" id="frame"></iframe>
+	<iframe src="Controlador/terminos_contenido.php" id="frame"></iframe>
 </div>
 </div>
 </div>

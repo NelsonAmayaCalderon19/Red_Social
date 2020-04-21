@@ -29,7 +29,7 @@
 	</div>
 	<br>
 	<div>
-		<form action="modelDAO/Comprobar_Login.php" method="get" >
+		<form action="Controlador/Comprobar_Login.php" method="get" >
 		<div id="credenciales">
 			<h3>Nombre de Usuario o Correo Electrónico</h3>
 			<span class="input-group-text" id="span1"><i class="fa fa-user" id="icon1"></i></span>

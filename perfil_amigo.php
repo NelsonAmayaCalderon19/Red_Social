@@ -68,12 +68,12 @@ if (!isset($_SESSION["usuario"])) {
     <a class="desplega_iconos" id="mostraricon" href="#" style="text-decoration: none;"  ><img class="eventoamigo" onerror="this.onerror=null;this.src='imagen/sin_foto.jpg';" src="data:image/jpg_;base64,<?php echo base64_encode($fila['Imagen_Perfil']);?>" alt="" ></a>
   </div>
   <div id="icono_mensajeria">
-    <form action="modelDAO/agregar_amigo.php" name="tuformulario"  >
+    <form action="Controlador/agregar_amigo.php" name="tuformulario"  >
       <input type="hidden" name="variable1" value="<?php echo $amigo ?>" />
       <button type=button onclick="pregunta()" style="visibility: hidden; padding-top: 6%; margin-left: 7%;"><a href="#" style="text-decoration: none;"><i class="fa fa-thumbs-o-up" id="icon2"></i></a></button>   
   </form><br>
     <a href="#" id="abrir_modal" style="text-decoration: none;"><i class="fa fa-paper-plane" id="icon3"></i></a><br>
-    <form action="modelDAO/dejar_amigo.php" name="tuformulario2">
+    <form action="Controlador/dejar_amigo.php" name="tuformulario2">
       <input type="hidden" name="variable1" value="<?php echo $amigo ?>" />
     <button type=button onclick="pregunta2()" style="visibility: hidden; padding-top: 10%; margin-left: 12%;">
     <a href="#" style="text-decoration: none;"><i class="fa fa-ban" id="icon4" ></i></a><br></button>
@@ -157,7 +157,7 @@ $buscar_text=$_SESSION["usuario"];
     </footer>
     <div class="modal">
     	<div class="bodyModal">
-    		<form action="modelDAO/mensaje_amigo.php" name="form_add_product" id="" >
+    		<form action="Controlador/mensaje_amigo.php" name="form_add_product" id="" >
           <a href="#" class="btn_ok closeModal" onclick="closeModal();"><i class="fa fa-times" style="color: red; font-size: 2em; float: right; padding: 10px;"></i></a><br>
     			<input type="hidden" name="variable1" value="<?php echo $amigo ?>"/>
           <h2 style="float: left;">Mensaje:</i></h2><br>
