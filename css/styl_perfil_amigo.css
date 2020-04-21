@@ -1,0 +1,173 @@
+		
+		*{
+			margin-left: 1px;
+			padding: 1px;
+		}
+	#contenedor{
+			width: 100%;
+	text-align:center;
+	justify-content: center;
+	padding-top: 1%;
+		}
+	.grid-gallery {
+          width:80%;
+          margin-top: 15px;
+          margin:0px auto;
+        }
+.grid-gallery__image{
+  display: inline-block;
+  transition: transform 0.6s;
+}
+.grid-gallery__image:hover{
+  transform: scale(1.3);
+}
+
+.modal{
+  padding-top: 5%;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.7);
+  display: none;
+  justify-content: center;
+  text-align: center;
+}
+.bodyModal{
+  margin:0px auto;
+
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+
+  height: 50%;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flex;
+  display: -o-inline-flex;
+  display: inline-flex;
+  align-items: center;
+  background-color: #fff;
+  display: block;
+}
+.form_add_product{
+  width: 420px;
+  margin:0px auto;
+  text-align: center;
+}
+#perfil_amigo{
+  margin:0px auto;
+display: flex;
+width: 90%;
+}
+#divamigo{
+  width: 23%;
+  height: 260px;
+  justify-content: center;
+  text-align: center;
+  /*background-color: blue;*/
+
+}
+.eventoamigo{
+  width: 250px;
+  height: 250px;
+  border-radius: 175px;
+  padding-top: 5px;
+}
+h4{
+  text-align: center;
+  margin:0px auto;
+}
+#icono_mensajeria{
+  width: 27%;
+  height: 260px;
+  border-color: #000 3px solid;
+  /*background-color: red;*/
+}
+#info_amigo{
+  width: 50%;
+
+}
+#icon2{
+  visibility: hidden;
+  color: black; 
+  font-size: 2em; 
+  padding-top: 0%; 
+  margin-left: 6%;
+}
+#icon3{
+  visibility: hidden;
+  color: black; 
+  font-size: 2em; 
+  padding-top: 1%; 
+  margin-left: 14%;
+}
+#icon4{
+ visibility: hidden;
+ color: black; 
+ font-size: 2em; 
+ padding-top: 0%; 
+ margin-left: 14%;
+}
+#icon5{
+  visibility: hidden;
+  color: black; 
+  font-size: 2em; 
+  padding-top: 0%; 
+  margin-left: 6%;
+}
+#nombre_amigo{
+  color: black;
+  font-family: "Homer Simpson UI" ;
+  font-size: 40px;
+}
+#usuario_amigo{
+  color: black;
+  font-family: "times new roman" ;
+  font-size: 30px;
+}
+#email_amigo{
+  color: black;
+  font-family: "times new roman" ;
+  font-size: 30px;
+}
+#seguidores_amigo{
+  color: black;
+  font-family: "times new roman" ;
+  font-size: 30px;
+  float: left;
+}
+#cantidad_fotos{
+  color: black;
+  float: right;
+  font-family: fantasy;
+  font-size: 30px;
+  padding-right: 5%;
+}
+.jGrowl .test {
+    background-color: #337ab7;
+}
+#cuerpo_mensaje{
+  width: 90%; 
+  height: 120px;
+}
+#cerrar{
+  color: red; 
+  font-size: 2em; 
+  float: right; 
+  padding: 10px;
+}
+#pregunta{
+  visibility: hidden; 
+  padding-top: 7%; 
+  margin-left: 7%;
+}
+#preguntados{
+visibility: hidden; 
+padding-top: 7%; 
+margin-left: 7%;
+}
+#volver{
+  float: right; 
+  font-size: 3em; 
+  margin-right: 2%;
+}

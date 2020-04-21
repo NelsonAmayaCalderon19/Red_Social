@@ -1,0 +1,303 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+  justify-content: center;
+		align-items: center;
+		
+	background: url(../imagen/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+
+	}
+	#contenedor{
+		margin-top: 6%;
+		margin-left: 5%;
+		margin-right: 5px;
+		width: 90%;
+		height: 100%;
+		border: 2px #336699 solid;
+		display: flex;
+		background-color: white;
+
+	}
+	#logo{
+	/*margin-bottom: 0px;*/
+		width: 50%;
+		border-right: 2px #336699 solid;
+		justify-content: center;
+		text-align: center; 
+	}
+
+	#campos{
+		width: 50%;
+		/*border-left: 1px #336699 solid;*/
+		height: 100%; 
+		/*display: flex;*/
+	}
+	#options{
+		width: 100%;
+		height: 17%;
+		display: flex;
+	}
+	#registrarte{
+		width: 50%;
+		height: 17%;
+		text-align: center;
+	}
+	#acceder{
+		width: 50%;
+		height: 17%;
+	}
+	#notiene{
+		float: left;
+		margin-top: 3%;
+		padding-left: 5%;
+		font-size: 30px;
+		
+	}
+	#sitiene{
+		float: left;
+		margin-top: 3%;
+		padding-left: 5%;
+	}
+	#registrate{
+		float: left;
+		margin-top: 1%;
+		padding-left: 5%;
+		
+	}
+	#accede{
+		float: left;
+		margin-top: 1%;
+		padding-left: 5%;
+	}
+	/*#notiene,#sitiene{
+		display: inline;
+	}
+	#registrate,#accede{
+		display: inline;
+	}*/
+#credenciales{
+	text-align: center;
+}
+#span1{
+	text-align:center;
+	justify-content: center;
+	background-color: silver;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-top: 1%;
+	padding-bottom: 1.4%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#span2{
+	text-align:center;
+	justify-content: center;
+	background-color: silver;
+	padding-right: 2.1%;
+	padding-left: 2.1%;
+	padding-top: 1%;
+	padding-bottom: 1.45%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#span3{
+	text-align:center;
+	justify-content: center;
+	background-color: silver;
+	padding-right: 1.8%;
+	padding-left: 1.8%;
+	padding-top: 1%;
+	padding-bottom: 1.45%;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#usuario,#password{
+margin-top: 2%;
+margin-bottom: 2%;
+margin-left: -4px;
+width: 70%;
+border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+#usuario{
+	margin-right: 6%;
+}
+input[type="text"]:focus,input[type="password"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 30px 0 dodgerBlue;
+}
+#icon1,#icon2{
+	color: #464747;
+	margin:0px auto;
+}
+#campos2{
+	display: flex;
+	width: 100%;
+	height: 17%;
+	border-bottom: 1px #336699 solid;
+}
+#olvido{
+	width: 60%;
+}
+#boton_ingresar{
+	width: 40%;
+	text-align: center;
+	align-content: center;
+}
+#olvi_user,#olvi_password{
+	padding-left: 5%;
+	margin-top: 5%;
+	text-decoration: none;
+	color: #000;
+}
+#btn_acceder{
+	margin-top: 4%;
+	margin-bottom: 4%;
+	padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #4ADC09;
+    border-radius: 6px;
+    border: 2px solid #267305;
+}
+#btn_acceder:hover{
+color: #4ADC09;
+    background-color: #ffffff;
+}
+input{
+	padding: 1%;
+}
+#face_google{
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+}
+#btn_face{
+	margin-top: 1%;
+	font-weight: 600;
+    font-size: 12px;
+    width: 215px;
+    color: #ffffff;
+    background-color: #0A0FB2;
+    border: 2px solid #000;
+}
+#btn_google{
+	margin-top: 2%;
+	font-weight: 600;
+    font-size: 12px;
+    width: 215px;
+    color: #ffffff;
+    background-color: #EF1417;
+    border: 2px solid #000;
+}
+#btn_twitter{
+	margin-top: 2%;
+	font-weight: 600;
+    font-size: 12px;
+    width: 215px;
+    color: #ffffff;
+    background-color: #4373F4;
+    border: 2px solid #000;
+}
+.footer{
+	/*color: black;*/
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+ 
+  /*position: relative;
+ bottom: 0;
+ width: 100%;
+
+  height: 60px;*/
+  background-color: #f5f5f5;
+}
+p{
+
+	padding-left: 20%; 
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+		*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+  justify-content: center;
+		align-items: center;
+		
+	background: url(imagen/fondo.jpg);
+	background-repeat: repeat;
+	background-size: 100% ;
+
+	}
+				#logo{
+	display: none;
+	}
+	#campos{
+
+		width: 100%;
+		border-right: 2px #336699 solid;
+		justify-content: center;
+		text-align: center; 
+	}
+	.footer{
+	/*color: black;*/
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+
+  background-color: #f5f5f5;
+}
+#olvi_user,#olvi_password{
+	padding-left: 0%;
+	margin-top: 2%;
+	text-decoration: none;
+	color: #000;
+}
+			}
+			@media (max-width: 600px) {
+				*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+  justify-content: center;
+		align-items: center;
+		
+	background: url(imagen/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+
+	}
+					#logo{
+	display: none;
+	}
+	#campos{
+
+		width: 100%;
+		border-right: 2px #336699 solid;
+		justify-content: center;
+		text-align: center; 
+	}
+	.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+   background-color: #f5f5f5;
+ }
+ #olvi_user,#olvi_password{
+	padding-left: 0%;
+	margin-top: 2%;
+	text-decoration: none;
+	color: #000;
+}
+			}

@@ -1,0 +1,89 @@
+ 
+    *{
+      margin-left: 1px;
+      padding: 1px;
+    }
+    /*html {
+  min-height: 100%;
+  position: relative;
+}*/
+    .evento{ 
+  width: 120px;
+  height: 120px;
+}
+.evento{
+  
+  transition: transform 0.5s;
+}
+.evento:hover{
+  transform: scale(1.2);
+}
+.encabezado{
+    border: solid 2px #000;
+  width: 99.7%;
+  height: 130px;
+  display: flex;
+  background-color: #1E69C3;
+        padding: 10px;
+
+}
+.encabezado div img{
+  padding-left: 6px;
+  padding-bottom: 15px;
+  padding-right: 1px;
+  cursor: pointer;
+}
+.encabezado div h3{
+  padding-top: 10px;
+  color: white;
+  padding-left: 35px;
+        font-size: 30px;
+       
+}
+#desplegable{
+  width: 75%;
+  text-align:right;
+  padding-top: 1.7%;
+
+
+  /*margin-left: 80%;*/
+  }
+  #desplegable2 {
+
+     margin:0px auto;
+
+}
+  #dropdownMenuButton{
+    background-color: #032C5F;
+  }
+  #dropdownMenuButton:hover{
+    background-color: white;
+  }
+
+  .footer{
+    color: black;
+  position: relative;
+ bottom: 0;
+ width: 100%;
+
+  height: 40px;
+  background-color: #f5f5f5;
+}
+#divimagen{
+  /*width: 0%;*/
+  }
+  #divuser{
+/*width: 0%;*/
+  }
+  h5:hover{
+background-color: #1E69C3;
+color: white;
+  }
+  #close:hover{
+background-color: red;
+color: white;
+  }
+  #icon{
+    font-size: 1em; 
+    float: left;
+  }

@@ -1,0 +1,42 @@
+ *{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    justify-content: center;
+    text-align:center;
+  }  
+  #mensaje{
+    margin-top: 2%;
+    width: 30%;  
+    display: inline-block;
+  }
+  #contenido{
+    width: 100%;
+  }
+
+  #titulo{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;   
+    width: 100%;
+    background-color: red;
+    height: 10%;
+  } 
+h3,h4{
+  display: inline-block;
+}
+h4{
+  margin-left: 5px;
+}
+#volver{
+  float: right; 
+  font-size: 3em; 
+  margin-right: 2%;
+}
+#total{
+  background-color: green; 
+  width: 30px; 
+  margin: 0px auto; 
+  border-radius: 10px; 
+  color: white;
+}

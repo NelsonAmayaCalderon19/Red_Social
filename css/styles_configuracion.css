@@ -1,0 +1,107 @@
+		
+	*{
+			margin-left: 1px;
+			padding: 1px;
+		}
+		/*html {
+  min-height: 100%;
+  position: relative;
+}*/
+		
+#contenedor{
+			width: 100%;
+	text-align:center;
+	justify-content: center;
+	padding-top: 1%;
+		}
+		#div_file{
+
+display: flex;
+     margin:0px auto;
+     border: 1px #2499e3 solid;
+     /*background-color: #2499e3;*/
+     padding:10px;
+    width:80%;
+     -webkit-border-radius:5px;
+
+justify-content: center;
+/*align-content: center;*/
+}
+p#texto{
+	text-align: center;
+	color:white;
+	background-color: green;
+	padding: 10px;
+}
+#nombre_archivo{
+	width: 40%;
+    margin-right: 3%;
+}
+input#btn_enviar{
+	/*position:absolute;*/
+	padding-top: 2px;
+	/*top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;*/
+	width:30%;
+
+	/*opacity: 0;*/
+}
+:root {
+    --color-bg-btn: #0062cc;
+    --color-bg-btn-hover: #0062aa;
+    --color-shadow-btn-active: rgba(0, 0, 0, .3);
+    --color-border-field: rgb(200, 200, 200);
+}
+.input-file {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.input-file__input {
+    display: none;
+}
+x
+
+.input-file__btn:hover {
+    background-color: var(--color-bg-btn-hover);
+}
+
+.input-file__field {
+    border: 1px solid var(--color-border-field);
+    width: calc(100% - 182px);
+    margin-right: 12px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: hidden
+}
+.btn-Agregar{
+	cursor: pointer; 
+	border-radius: 5px; 
+ 
+	height: 50px; 
+	padding-top: 2px;  
+	margin-left: 10px; 
+}
+.btn-Confirmar{
+  cursor: pointer; 
+  border-radius: 5px; 
+ 
+  height: 50px;   
+  margin-left: 10px; 
+}
+#cambiar_imagen{
+  margin: 0px auto;
+  color: red;
+  font-family: times new roman;
+  font-size: 40px;
+}
